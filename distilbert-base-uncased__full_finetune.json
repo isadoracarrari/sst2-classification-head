@@ -1,0 +1,28 @@
+{
+  "model": "distilbert-base-uncased",
+  "mode": "full_finetune",
+  "total_params": 66955010,
+  "trainable_params": 66955010,
+  "train_seconds": 19.998214721679688,
+  "final_val_acc": 0.8428899082568807,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.68925,
+      "val_loss": 0.6872491399082569,
+      "val_acc": 0.5091743119266054
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.66296875,
+      "val_loss": 0.6485629300458715,
+      "val_acc": 0.5114678899082569
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.50265625,
+      "val_loss": 0.39417287844036697,
+      "val_acc": 0.8428899082568807
+    }
+  ]
+}
